@@ -46,6 +46,20 @@ public class ColorSwitching : MonoBehaviour
 
             changeColorbyLevel(Colorlevel);
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            changeColorbyLevel(0);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            changeColorbyLevel(1);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            changeColorbyLevel(2);
+        }
+
     }
 
     public spriteColor color;
